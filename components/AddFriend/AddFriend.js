@@ -4,7 +4,9 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native'
 export default function AddFriend() {
     return (
         <ScrollView>
-            <Text>This is AddFriend</Text>
+            <View>
+                <Text>This is AddFriend</Text>
+            </View>
         </ScrollView>
     )
 }

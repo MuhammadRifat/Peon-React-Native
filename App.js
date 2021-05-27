@@ -19,9 +19,9 @@ export const userContext = createContext();
 
 export default function App() {
   const [loggedInUser, setLoggedInUser] = useState({
-    name: '',
-    email: '',
-    photo: '',
+    name: 'Muhammad Rifat',
+    email: 'hrifat450@gmail.com',
+    photo: 'https://lh3.googleusercontent.com/ogw/ADGmqu8TdfdOiJqnAk7Ttfa104oDbzx-nQbzVquqq8f2Ew=s83-c-mo',
     error: ''
   });
   return (

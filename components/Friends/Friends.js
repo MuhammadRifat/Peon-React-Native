@@ -43,10 +43,12 @@ export default function Friends() {
 
     return (
         <ScrollView>
+            <View>
             {spinner && <ActivityIndicator size="large" color="darkgreen" style={{ marginBottom: 5 }} />}
             {
                 friends.map(friend => <FriendDetails friend={friend} key={friend.id}></FriendDetails>)
             }
+            </View>
         </ScrollView>
     )
 }
